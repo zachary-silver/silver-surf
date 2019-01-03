@@ -19,11 +19,6 @@ provides=($pkgname)
 conflicts=($pkgname)
 source=(https://www.dropbox.com/s/zq9jdu7yc6oknwu/silver-surf.tar.gz
         config.h)
-
-pkgver() {
-  cd $pkgname
-  git describe --long --tags | sed -r 's/([^-]*-g)/r\1/;s/-/./g'
-}
 md5sums=('6115859b5387db15570c8ac57e156a7c'
          'b6d2c7c87caa1139d1e44e05ef7109db')
 
