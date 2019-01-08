@@ -1,8 +1,9 @@
 # silver-surf
 A customized clone of a WebKit based browser called surf by suckless, patched with homepage and searchengines.
-	'Ctrl-g' to bring up dmenu url bar
-	preface a keyword with 'g' to google search: 'g youtube'
-	edit HOMEPAGE definition in config.h to your desired homepage and then recompile
+
+-	'Ctrl-g' to bring up dmenu url bar.
+-	Preface a keyword with 'g' to google search: 'g youtube'.
+-	Edit HOMEPAGE definition in config.h to your desired homepage and then recompile.
 
 # Screen
 
