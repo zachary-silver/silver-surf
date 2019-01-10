@@ -1,4 +1,4 @@
-# silver-surf
+# silver_surf
 A customized clone of a WebKit based browser called surf by suckless, patched with homepage and searchengines.
 
 -	'Ctrl-g' to bring up dmenu url bar.
